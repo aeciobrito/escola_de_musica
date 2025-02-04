@@ -54,9 +54,12 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Maria", course: "Piano", text: "Aprendi a tocar em 3 meses!", img: `https://picsum.photos/100/100?random=9` },
         { name: "Aecio", course: "Guitarra", text: "Já estou melhor que Chimbinha", img: `https://picsum.photos/100/100?random=50` },
         { name: "Mendes", course: "Pandeiro", text: "É no batuque do tambor", img: `https://picsum.photos/100/100?random=51` },
-        { name: "Minoru", course: "Pandeiro (Mas com um toque de humor)", text: "É no batuque do tambor, mas é melhor que o som de um despertador!", img: `https://picsum.photos/100/100?random=51` },
-        { name: "Douglas", course: "Bateria", text: "Ba dum tis", img: `https://picsum.photos/100/100?random=55` }
-    ]
+        { name: "Minoru", course: "Pandeiro (Mas com um toque de humor)", text: "É no batuque do tambor, mas é melhor que o som de um despertador!", img: `https://picsum.photos/100/100?random=52` },
+        { name: "Clodoaldo", course: "Bateria", text: "Dediquei 12 anos ao instrumento e não aprendi tudo ", img: `https://picsum.photos/100/100?random=60` },
+      { name: "Nilsa", course: "piano", text: "A sensação é de como tocar as nuvens! uma melodia angelical", img: `https://picsum.photos/100/100?random=22` },
+         { name: "Gabriel", course: "Bateria", text: "ótimo curso! ja estou procurando vaga no slipknot", img: `https://picsum.photos/100/100?random=55` },
+         { name: "Douglas", course: "Bateria", text: "Ba dum tis", img: `https://picsum.photos/100/100?random=55` }
+    ];
 
     const testimonialContainer = document.getElementById("testimonials-content");
     testimonials.forEach(({ name, course, text, img }) => {
