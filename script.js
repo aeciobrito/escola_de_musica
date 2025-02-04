@@ -56,6 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Mendes", course: "Pandeiro", text: "É no batuque do tambor", img: `https://picsum.photos/100/100?random=51` },
         { name: "Minoru", course: "Pandeiro (Mas com um toque de humor)", text: "É no batuque do tambor, mas é melhor que o som de um despertador!", img: `https://picsum.photos/100/100?random=51` },
         { name: "Clodoaldo", course: "Bateria", text: "Dediquei 12 anos ao instrumento e não aprendi tudo ", img: `https://picsum.photos/100/100?random=60` },
+         { name: "Gabriel", course: "Bateria", text: "ótimo curso! ja estou procurando vaga no slipknot", img: `https://picsum.photos/100/100?random=55` }
     ];
 
     const testimonialContainer = document.getElementById("testimonials-content");
