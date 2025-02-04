@@ -54,7 +54,12 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Maria", course: "Piano", text: "Aprendi a tocar em 3 meses!", img: `https://picsum.photos/100/100?random=9` },
         { name: "Aecio", course: "Guitarra", text: "Já estou melhor que Chimbinha", img: `https://picsum.photos/100/100?random=50` },
         { name: "Mendes", course: "Pandeiro", text: "É no batuque do tambor", img: `https://picsum.photos/100/100?random=51` },
+<<<<<<< HEAD
         { name: "Douglas", course: "Bateria", text: "Ba dum tis", img: `https://picsum.photos/100/100?random=55` }
+=======
+        { name: "Minoru", course: "Pandeiro (Mas com um toque de humor)", text: "É no batuque do tambor, mas é melhor que o som de um despertador!", img: `https://picsum.photos/100/100?random=51` }
+
+>>>>>>> 716c04859c262c5e87673200072f7aeae02757bd
     ];
 
     const testimonialContainer = document.getElementById("testimonials-content");
