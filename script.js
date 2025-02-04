@@ -58,7 +58,9 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Clodoaldo", course: "Bateria", text: "Dediquei 12 anos ao instrumento e não aprendi tudo ", img: `https://picsum.photos/100/100?random=60` },
       { name: "Nilsa", course: "piano", text: "A sensação é de como tocar as nuvens! uma melodia angelical", img: `https://picsum.photos/100/100?random=22` },
          { name: "Gabriel", course: "Bateria", text: "ótimo curso! ja estou procurando vaga no slipknot", img: `https://picsum.photos/100/100?random=55` },
-         { name: "Douglas", course: "Bateria", text: "Ba dum tis", img: `https://picsum.photos/100/100?random=55` }
+         { name: "Douglas", course: "Bateria", text: "Ba dum tis", img: `https://picsum.photos/100/100?random=55` },
+         { name: "Carlos", course: "Guitarra", text: "mudei o texto", img: `https://picsum.photos/100/100?random=50` }
+
     ];
 
     const testimonialContainer = document.getElementById("testimonials-content");
