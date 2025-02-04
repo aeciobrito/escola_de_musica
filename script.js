@@ -52,7 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const testimonials = [
         { name: "João", course: "Violão", text: "Melhor curso que já fiz!", img: `https://picsum.photos/100/100?random=8` },
         { name: "Maria", course: "Piano", text: "Aprendi a tocar em 3 meses!", img: `https://picsum.photos/100/100?random=9` },
-        { name: "Aecio", course: "Guitarra", text: "Já estou melhor que Chimbinha", img: `https://picsum.photos/100/100?random=50` }
+        { name: "Aecio", course: "Guitarra", text: "Já estou melhor que Chimbinha", img: `https://picsum.photos/100/100?random=50` },
+        { name: "Carlos", course: "Guitarra", text: "mudei o texto", img: `https://picsum.photos/100/100?random=50` },
     ];
 
     const testimonialContainer = document.getElementById("testimonials-content");
