@@ -43,7 +43,7 @@ body {
     position: relative;
     text-align: center;
     color: white;
-    height: 50vh; /* Reduced height */
+    height: 50vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,6 +142,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
 
 /* SLIDER */
 .slider {
@@ -244,4 +246,13 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
 }
