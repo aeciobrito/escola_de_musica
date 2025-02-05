@@ -237,3 +237,13 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
