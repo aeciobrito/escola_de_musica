@@ -119,6 +119,14 @@ body {
     gap: 10px;
 }
 
+.whatsapp-btn {
+    background: #61ffa8;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact-btn:hover {
     background: #e65a50;
 }
